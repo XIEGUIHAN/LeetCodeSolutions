@@ -1,11 +1,9 @@
 package leetcode.hashmap;
 
-import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
-public class intersection {
+public class inttersection {
     public static int[] intersection(int[] nums1, int[] nums2) {
         int[] map = new int[1002];
         Set<Integer> set = new HashSet<>();
